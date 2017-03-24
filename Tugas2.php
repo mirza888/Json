@@ -18,7 +18,7 @@
 	
 	$c1 = $parsed_json3->{"trip"}->{"title"};
 	$c2 = $parsed_json3->{"trip"}->{"airport_code"};
-    $c3 = $parsed_json3->{"trip"}->{"period_of_record"}->{"date_start"}->{"date"}->{"pretty"};
+        $c3 = $parsed_json3->{"trip"}->{"period_of_record"}->{"date_start"}->{"date"}->{"pretty"};
 	
 	
 	//memanggil hasil proses json
@@ -28,8 +28,8 @@
 	echo "<br>";
 	echo "Update foto ${a2}\n";
 	echo "<br>";
-	echo "Didapat dari ${a2}\n";
-    echo "<br>";
+	echo "Didapat dari ${a3}\n";
+        echo "<br>";
 	echo "<br>";
 	echo "Element dari json astronomy";
 	echo "<br>";
